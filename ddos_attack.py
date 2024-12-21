@@ -17,7 +17,7 @@ threads = []
 for i in range(num_threads):
     thread = threading.Thread(target=send_requests)
     thread.start()
-    threads.append(threads)
+    threads.append(thread)
 
 
 
